@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **python,figma,framer,Canva,Java,C.**
 
-- 📫 How to reach me **ajaykumarreddykrishnareddygar@gmail.com**
+- 📫 How to reach me **ajaykumarreddykrishnareddygari@gmail.com**
 
 - ⚡ Fun fact **i am work alcoholic and a anime lover For Real.**
 
