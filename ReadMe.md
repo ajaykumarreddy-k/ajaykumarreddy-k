@@ -44,19 +44,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ajaykumarreddy-k&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ajaykumarreddy-k&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajaykumarreddy-k&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ### ✨ Philosophy
 
 <p align="center">
