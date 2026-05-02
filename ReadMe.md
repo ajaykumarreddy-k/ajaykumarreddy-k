@@ -19,7 +19,7 @@
 - 🌱 Learning **Python, Java, UX Tools**
 - 🤝 Open to collaboration on **any repository**
 - 🛠️ Enjoy improving **existing projects**
-- 👨‍💻 Portfolio: **[ajays-portfolio-minimal-design.vercel.app](https://ajays-portfolio-minimal-design.vercel.app/)**
+- 👨‍💻 Portfolio: **[Portfolio Link- Visit it to know more  ](https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/)**
 - 💬 Ask me about **Python, Figma, Framer, Canva, Java, C**
 - 📫 **ajaykumarreddykrishnareddygari@gmail.com**
 - ⚡ Fun fact: **Work-aholic & hardcore anime lover 🎌**
