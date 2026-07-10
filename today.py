@@ -153,7 +153,7 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
                 return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
             else: return 0
         if request.status_code in (502, 503):
-            wait = 15 * (attempt + 1) # 15s, 30s, 45s, 60s, 75s
+            wait = 5 * (attempt + 1) # 5s, 10s, 15s, 20s, 25s
             print(f'\n   502/503 for {repo_name}, retrying in {wait}s (attempt {attempt+1}/{retries})...')
             time.sleep(wait)
             continue
@@ -261,6 +261,9 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
             except TypeError: # If the repo is empty
                 data[index] = repo_hash + ' 0 0 0 0\n'
+            except Exception as e: # If the repo fails (e.g. persistent 502), skip it and keep old data
+                repo_name_str = edges[index]['node']['nameWithOwner']
+                print(f'\n   Skipping {repo_name_str} due to error: {e}')
     with open(filename, 'w') as f:
         f.writelines(cache_comment)
         f.writelines(data)
