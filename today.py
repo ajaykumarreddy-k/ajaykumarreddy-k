@@ -108,7 +108,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
             return stars_counter(request.json()['data']['user']['repositories']['edges'])
 
 
-def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None):
+def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None, retries=5):
     """
     Uses GitHub's GraphQL v4 API and cursor pagination to fetch 100 commits from a repository at a time
     """
@@ -146,15 +146,23 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS) # I cannot use simple_request(), because I want to save the file before raising Exception
-    if request.status_code == 200:
-        if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
-            return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
-        else: return 0
-    force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
-    if request.status_code == 403:
-        raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
-    raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
+    for attempt in range(retries):
+        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS) # I cannot use simple_request(), because I want to save the file before raising Exception
+        if request.status_code == 200:
+            if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
+                return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)
+            else: return 0
+        if request.status_code in (502, 503):
+            wait = 15 * (attempt + 1) # 15s, 30s, 45s, 60s, 75s
+            print(f'\n   502/503 for {repo_name}, retrying in {wait}s (attempt {attempt+1}/{retries})...')
+            time.sleep(wait)
+            continue
+        force_close_file(data, cache_comment) # saves what is currently in the file before this program crashes
+        if request.status_code == 403:
+            raise Exception('Too many requests in a short amount of time!\nYou\'ve hit the non-documented anti-abuse limit!')
+        raise Exception('recursive_loc() has failed with a', request.status_code, request.text, QUERY_COUNT)
+    force_close_file(data, cache_comment)
+    raise Exception('recursive_loc() has failed after', retries, 'retries due to repeated 502/503. GitHub API overloaded.')
 
 
 def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, addition_total, deletion_total, my_commits):
