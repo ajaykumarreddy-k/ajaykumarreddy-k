@@ -460,7 +460,7 @@ if __name__ == '__main__':
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
     # several repositories that I've contributed to have since been deleted.
-    if OWNER_ID == {'id': 'PLACEHOLDER_FOR_AJAY_ID'}: # Change this when you know your GraphQL ID
+    if OWNER_ID == {'id': 'U_kgDOCv2lBA'}: # Change this when you know your GraphQL ID
         archived_data = add_archive()
         for index in range(len(total_loc)-1):
             total_loc[index] += archived_data[index]
