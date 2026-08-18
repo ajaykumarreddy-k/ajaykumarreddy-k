@@ -11,41 +11,19 @@
 
 <p align="center">
   <a href="https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/" target="_blank">
-    <img
-      src="https://cdn.simpleicons.org/vercel/ffffff"
-      alt="Portfolio"
-      width="32"
-    />
+    <img src="./Resources/Logo%20portfolio.png" alt="Portfolio" width="50" style="border-radius: 8px;" />
   </a>
-
-  &nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
-
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/ajaykumarreddy-k" target="_blank">
-    <img
-      src="https://cdn.simpleicons.org/github/ffffff"
-      alt="GitHub"
-      width="32"
-    />
+    <img src="./Resources/github.png" alt="GitHub" width="50" style="border-radius: 8px;" />
   </a>
-
   &nbsp;&nbsp;&nbsp;
-
   <a href="https://www.linkedin.com/in/ajay-kumar-reddy-krishnareddygari-a4885b282/" target="_blank">
-    <img
-      src="https://cdn.simpleicons.org/linkedin/0077B5"
-      alt="LinkedIn"
-      width="32"
-    />
+    <img src="./Resources/linkedin.png" alt="LinkedIn" width="50" style="border-radius: 8px;" />
   </a>
-
   &nbsp;&nbsp;&nbsp;
-
   <a href="mailto:ajaykumarreddykrishnareddygari@gmail.com">
-    <img
-      src="https://cdn.simpleicons.org/gmail/D14836"
-      alt="Email"
-      width="32"
-    />
+    <img src="./Resources/mail.png" alt="Email" width="50" style="border-radius: 8px;" />
   </a>
 </p>
 
@@ -71,6 +49,8 @@
 
 <br><br>
 
+<h3 align="center">If someone Git Blame me - Just Kidding !</h3>
+
 <table align="center" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td align="center" width="50%">
@@ -94,6 +74,8 @@
 
 <br><br>
 
+<h3 align="center">If u and i want to work on a Project/repo</h3>
+
 <p align="center">
   <img
     src="./Resources/elden-ring-dark-souls.gif"
@@ -103,3 +85,12 @@
   />
 </p>
 
+
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ajaykumarreddy-k/ajaykumarreddy-k/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ajaykumarreddy-k/ajaykumarreddy-k/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ajaykumarreddy-k/ajaykumarreddy-k/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
