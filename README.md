@@ -3,6 +3,7 @@
     src="./Resources/AKRAjay%20Kumar%20Reddy%20K.png"
     alt="Ajay Kumar Reddy K"
     width="100%"
+    style="border-radius: 15px;"
   />
 </p>
 
@@ -11,9 +12,9 @@
 <p align="center">
   <a href="https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/" target="_blank">
     <img
-      src="./Resources/Logo%20portfolio.png"
+      src="https://api.iconify.design/mdi:web.svg?color=%23111111"
       alt="Portfolio"
-      width="70"
+      width="32"
     />
   </a>
 
@@ -58,6 +59,16 @@
   UI/UX Designer · Developer · Data Science Enthusiast
 </p>
 
+<br>
+
+<p align="center">
+  If you're passionate about frontend development, creative interfaces, and exploring what’s possible with modern web technologies, you’ll probably enjoy exploring my repositories. They’re filled with projects built around interesting ideas, experiments, and challenging technical concepts.
+  <br><br>
+  I enjoy working with React, Next.js, TypeScript, Node.js, and the modern JavaScript ecosystem, while constantly exploring new libraries, frameworks, tools, and npm packages. I’m especially interested in understanding how things work under the hood—from browser rendering and component architecture to APIs, build systems, performance, and resource management.
+  <br><br>
+  I like turning ideas into polished, interactive experiences and experimenting with technologies that push the boundaries of what the web can do. If that sounds interesting, feel free to explore my repositories.
+</p>
+
 <br><br>
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
@@ -67,6 +78,7 @@
         src="./Resources/footerbackground.jpeg"
         alt="Ajay Kumar Reddy"
         width="320"
+        style="border-radius: 15px;"
       />
     </td>
 
@@ -75,6 +87,7 @@
         src="./Resources/law%20if%20some%20one%20blames%20me%20.gif"
         alt="Law"
         width="320"
+        style="border-radius: 15px;"
       />
     </td>
   </tr>
@@ -87,5 +100,7 @@
     src="./Resources/elden-ring-dark-souls.gif"
     alt="I'm ready to slay"
     width="500"
+    style="border-radius: 15px;"
   />
 </p>
+
