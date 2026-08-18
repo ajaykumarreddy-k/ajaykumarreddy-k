@@ -1,22 +1,91 @@
-<a href="https://github.com/ajaykumarreddy-k/ajaykumarreddy-k">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ajaykumarreddy-k/ajaykumarreddy-k/main/dark_mode.svg">
-    <img alt="Ajay Kumar Reddy K's GitHub Profile README" src="https://raw.githubusercontent.com/ajaykumarreddy-k/ajaykumarreddy-k/main/light_mode.svg">
-  </picture>
-</a>
+<p align="center">
+  <img
+    src="./Resources/AKRAjay%20Kumar%20Reddy%20K.png"
+    alt="Ajay Kumar Reddy K"
+    width="100%"
+  />
+</p>
+
+<br>
 
 <p align="center">
-  <a href="https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-252B48?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/" target="_blank">
+    <img
+      src="./Resources/Logo%20portfolio.png"
+      alt="Portfolio"
+      width="70"
+    />
   </a>
+
+  &nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/ajaykumarreddy-k" target="_blank">
+    <img
+      src="https://cdn.simpleicons.org/github/111111"
+      alt="GitHub"
+      width="32"
+    />
+  </a>
+
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.linkedin.com/in/ajay-kumar-reddy-krishnareddygari-a4885b282/" target="_blank">
+    <img
+      src="https://cdn.simpleicons.org/linkedin/0077B5"
+      alt="LinkedIn"
+      width="32"
+    />
+  </a>
+
+  &nbsp;&nbsp;&nbsp;
+
   <a href="mailto:ajaykumarreddykrishnareddygari@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/ajay-kumar-reddy-krishnareddy-gari-a4885b282/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/ajaykumarreddy-k">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img
+      src="https://cdn.simpleicons.org/gmail/D14836"
+      alt="Email"
+      width="32"
+    />
   </a>
 </p>
 
+<br>
+
+<p align="center">
+  <b>Designing interfaces. Building systems. Exploring AI.</b>
+</p>
+
+<p align="center">
+  UI/UX Designer · Developer · Data Science Enthusiast
+</p>
+
+<br><br>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" width="50%">
+      <img
+        src="./Resources/footerbackground.jpeg"
+        alt="Ajay Kumar Reddy"
+        width="320"
+      />
+    </td>
+
+    <td align="center" width="50%">
+      <img
+        src="./Resources/law%20if%20some%20one%20blames%20me%20.gif"
+        alt="Law"
+        width="320"
+      />
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<p align="center">
+  <img
+    src="./Resources/elden-ring-dark-souls.gif"
+    alt="I'm ready to slay"
+    width="500"
+  />
+</p>
