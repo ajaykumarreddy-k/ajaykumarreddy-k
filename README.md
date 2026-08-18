@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://ajaykumarreddykrishnareddygari-portfolio.vercel.app/" target="_blank">
     <img
-      src="https://api.iconify.design/mdi:web.svg?color=%23111111"
+      src="https://cdn.simpleicons.org/vercel/ffffff"
       alt="Portfolio"
       width="32"
     />
@@ -22,7 +22,7 @@
 
   <a href="https://github.com/ajaykumarreddy-k" target="_blank">
     <img
-      src="https://cdn.simpleicons.org/github/111111"
+      src="https://cdn.simpleicons.org/github/ffffff"
       alt="GitHub"
       width="32"
     />
@@ -72,25 +72,24 @@
 <br><br>
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" width="50%">
-      <img
-        src="./Resources/footerbackground.jpeg"
-        alt="Ajay Kumar Reddy"
-        width="320"
-        style="border-radius: 15px;"
-      />
-    </td>
-
-    <td align="center" width="50%">
-      <img
-        src="./Resources/law%20if%20some%20one%20blames%20me%20.gif"
-        alt="Law"
-        width="320"
-        style="border-radius: 15px;"
-      />
-    </td>
-  </tr>
+<tr>
+<td align="center" width="50%">
+  <img
+    src="./Resources/footerbackground.jpeg"
+    alt="Ajay Kumar Reddy"
+    width="320"
+    style="border-radius: 15px;"
+  />
+</td>
+<td align="center" width="50%">
+  <img
+    src="./Resources/law%20if%20some%20one%20blames%20me%20.gif"
+    alt="Law"
+    width="320"
+    style="border-radius: 15px;"
+  />
+</td>
+</tr>
 </table>
 
 <br><br>
